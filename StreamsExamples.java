@@ -4,7 +4,7 @@ import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-public class SDE {
+public class StreamsExamples {
 
     public static void main(String args[]){
 
@@ -20,7 +20,7 @@ public class SDE {
 
         //Check if a list of integers contains a prime number using Java streams
         List<Integer> numbers = Arrays.asList(2, 4, 6, 8, 10, 11, 12, 13, 14, 15);
-        boolean containsPrime = numbers.stream().anyMatch(new SDE() :: isPrime);
+        boolean containsPrime = numbers.stream().anyMatch(new StreamsExamples() :: isPrime);
         System.out.println(containsPrime);
 
         //Merge two sorted lists into a single sorted list using Java streams
